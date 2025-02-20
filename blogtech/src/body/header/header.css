@@ -1,0 +1,11 @@
+#header{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text{
+    margin-left: 10vw;
+}

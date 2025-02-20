@@ -1,0 +1,335 @@
+[
+    {
+      "id": 1,
+      "nome": "Teclado Mecânico Logitech G Pro X",
+      "descrição": "Teclado mecânico compacto com switches hot-swappable e RGB personalizável.",
+      "marca": "Logitech",
+      "preco": 599.99,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/g/pro-x/g-pro-x-hero-1024.jpg"
+    },
+    {
+      "id": 2,
+      "nome": "Mouse Razer DeathAdder V2",
+      "descrição": "Mouse ergonômico com sensor óptico de 20.000 DPI e switches ópticos.",
+      "marca": "Razer",
+      "preco": 349.99,
+      "cor": "Preto",
+      "foto": "https://www.razer.com/assests/images/products/21710/razer-deathadder-v2-gallery.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Monitor Dell UltraSharp 27\" 4K",
+      "descrição": "Monitor 4K de 27 polegadas com painel IPS e cobertura de cores de 99% sRGB.",
+      "marca": "Dell",
+      "preco": 2799.99,
+      "cor": "Preto",
+      "foto": "https://i.dell.com/sites/csimages/Merchandizing_Imagery/all/dell-ultrasharp-u2720q.png"
+    },
+    {
+      "id": 4,
+      "nome": "Controle Xbox Series X",
+      "descrição": "Controle sem fio com conectividade Bluetooth, gatilhos adaptáveis e feedback tátil.",
+      "marca": "Microsoft",
+      "preco": 349.00,
+      "cor": "Preto",
+      "foto": "https://www.xbox.com/media/tdpnpzch/xbox-series-x-controller.png"
+    },
+    {
+      "id": 5,
+      "nome": "Headset Sony WH-1000XM4",
+      "descrição": "Headset sem fio com cancelamento de ruído ativo, áudio de alta qualidade e autonomia de 30 horas.",
+      "marca": "Sony",
+      "preco": 1899.99,
+      "cor": "Preto",
+      "foto": "https://www.sony.com/image/4cb60d16c94f45fe48d15ea6784f7fdd?fmt=pjpeg&wid=1300"
+    },
+    {
+      "id": 6,
+      "nome": "Fone de ouvido Bose QuietComfort 35 II",
+      "descrição": "Fone de ouvido Bluetooth com cancelamento de ruído ativo e microfone embutido.",
+      "marca": "Bose",
+      "preco": 1499.99,
+      "cor": "Prata",
+      "foto": "https://www.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/headphones/quietcomfort-35-ii/products/casestudy/quietcomfort-35-ii-bose-hero.jpg"
+    },
+    {
+      "id": 7,
+      "nome": "Teclado Corsair K95 RGB Platinum",
+      "descrição": "Teclado mecânico com switches Cherry MX, iluminação RGB e teclas adicionais para macros.",
+      "marca": "Corsair",
+      "preco": 1199.00,
+      "cor": "Preto",
+      "foto": "https://www.corsair.com/corsairmedia/sys_master/productcontent/corsair-k95-platinum-rgb-keyboard-01.png"
+    },
+    {
+      "id": 8,
+      "nome": "Mouse Logitech G502 Hero",
+      "descrição": "Mouse para jogos com sensor HERO de 16.000 DPI, 11 botões programáveis e iluminação RGB.",
+      "marca": "Logitech",
+      "preco": 379.99,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/g502/hero/g502-hero-1024.jpg"
+    },
+    {
+      "id": 9,
+      "nome": "Monitor ASUS ROG Swift 27\" 144Hz",
+      "descrição": "Monitor para jogos com tela de 27 polegadas, resolução 2560x1440 e taxa de atualização de 144Hz.",
+      "marca": "ASUS",
+      "preco": 3499.99,
+      "cor": "Preto",
+      "foto": "https://rog.asus.com/media/15862/rog-swift-pg279q_hero_02.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "Headset SteelSeries Arctis 7",
+      "descrição": "Headset sem fio para jogos com som surround 7.1 e microfone retrátil com cancelamento de ruído.",
+      "marca": "SteelSeries",
+      "preco": 1099.99,
+      "cor": "Preto",
+      "foto": "https://steelseries.com/media/ea968f19c98262cc440e4c7642335bce.png"
+    },
+    {
+      "id": 11,
+      "nome": "Controle DualSense PlayStation 5",
+      "descrição": "Controle sem fio para PS5 com feedback háptico, gatilhos adaptáveis e microfone embutido.",
+      "marca": "Sony",
+      "preco": 399.00,
+      "cor": "Branco",
+      "foto": "https://static.playstation.com/playstationcom/ss/migration/mid/2020/11/ps5-dualsense-wireless-controller-hero.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "Fone de ouvido JBL Quantum One",
+      "descrição": "Fone de ouvido para jogos com som espacial 3D, cancelamento de ruído ativo e microfone com redução de ruído.",
+      "marca": "JBL",
+      "preco": 1199.99,
+      "cor": "Preto",
+      "foto": "https://www.jbl.com/on/demandware.static/-/Sites-master-catalog/default/dw0edbc322/images/JBLQuantumOne/jbl-quantum-one-headset.jpg"
+    },
+    {
+      "id": 13,
+      "nome": "Teclado Razer BlackWidow V3",
+      "descrição": "Teclado mecânico com switches Razer Green, iluminação RGB e construção robusta em metal.",
+      "marca": "Razer",
+      "preco": 699.00,
+      "cor": "Preto",
+      "foto": "https://www.razer.com/assests/images/products/21759/razer-blackwidow-v3-gallery.jpg"
+    },
+    {
+      "id": 14,
+      "nome": "Mouse Logitech G Pro X Superlight",
+      "descrição": "Mouse ultraleve com sensor HERO de 25.600 DPI e design ambidestro.",
+      "marca": "Logitech",
+      "preco": 729.00,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/pro-x-superlight/g-pro-x-superlight-black.png"
+    },
+    {
+      "id": 15,
+      "nome": "Monitor Samsung Odyssey G7 32\"",
+      "descrição": "Monitor curvo de 32 polegadas com resolução 2560x1440, taxa de atualização de 240Hz e tempo de resposta de 1ms.",
+      "marca": "Samsung",
+      "preco": 4299.99,
+      "cor": "Preto",
+      "foto": "https://www.samsung.com/us/computing/monitors/gaming/odyssey-32-inch-curved-qhd-gaming-monitor-lc32g75tqsnxza/images/hero.png"
+    },
+    {
+      "id": 16,
+      "nome": "Fone de ouvido HyperX Cloud II",
+      "descrição": "Fone de ouvido com som 7.1 virtual, microfone removível e almofadas de espuma de memória.",
+      "marca": "HyperX",
+      "preco": 749.00,
+      "cor": "Preto",
+      "foto": "https://www.hyperxgaming.com/media/1547/cloud-ii-hero.png"
+    },
+    {
+      "id": 17,
+      "nome": "Teclado Razer Huntsman Mini",
+      "descrição": "Teclado mecânico compacto de 60% com switches ópticos Razer e iluminação RGB.",
+      "marca": "Razer",
+      "preco": 899.00,
+      "cor": "Preto",
+      "foto": "https://www.razer.com/assests/images/products/22702/razer-huntsman-mini-gallery.jpg"
+    },
+    {
+      "id": 18,
+      "nome": "Mouse Logitech G903 Lightspeed",
+      "descrição": "Mouse sem fio com sensor HERO de 16.000 DPI, 11 botões programáveis e RGB.",
+      "marca": "Logitech",
+      "preco": 649.99,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/g903-lightspeed/g903-lightspeed-gallery.jpg"
+    },
+    {
+      "id": 19,
+      "nome": "Monitor Acer Predator XB273K",
+      "descrição": "Monitor 4K de 27 polegadas com taxa de atualização de 144Hz, G-Sync e HDR.",
+      "marca": "Acer",
+      "preco": 4799.99,
+      "cor": "Preto",
+      "foto": "https://www.acer.com/ac/pt/BR/content/series/predator"
+    },
+    {
+      "id": 20,
+      "nome": "Teclado Mecânico Logitech G Pro X",
+      "descrição": "Teclado mecânico compacto com switches hot-swappable e RGB personalizável.",
+      "marca": "Logitech",
+      "preco": 599.99,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/g/pro-x/g-pro-x-hero-1024.jpg"
+    },
+    {
+      "id": 21,
+      "nome": "Mouse Razer DeathAdder V2",
+      "descrição": "Mouse ergonômico com sensor óptico de 20.000 DPI e switches ópticos.",
+      "marca": "Razer",
+      "preco": 349.99,
+      "cor": "Preto",
+      "foto": "https://www.razer.com/assests/images/products/21710/razer-deathadder-v2-gallery.jpg"
+    },
+    {
+      "id": 22,
+      "nome": "Monitor Dell UltraSharp 27\" 4K",
+      "descrição": "Monitor 4K de 27 polegadas com painel IPS e cobertura de cores de 99% sRGB.",
+      "marca": "Dell",
+      "preco": 2799.99,
+      "cor": "Preto",
+      "foto": "https://i.dell.com/sites/csimages/Merchandizing_Imagery/all/dell-ultrasharp-u2720q.png"
+    },
+    {
+      "id": 23,
+      "nome": "Controle Xbox Series X",
+      "descrição": "Controle sem fio com conectividade Bluetooth, gatilhos adaptáveis e feedback tátil.",
+      "marca": "Microsoft",
+      "preco": 349.00,
+      "cor": "Preto",
+      "foto": "https://www.xbox.com/media/tdpnpzch/xbox-series-x-controller.png"
+    },
+    {
+      "id": 24,
+      "nome": "Headset Sony WH-1000XM4",
+      "descrição": "Headset sem fio com cancelamento de ruído ativo, áudio de alta qualidade e autonomia de 30 horas.",
+      "marca": "Sony",
+      "preco": 1899.99,
+      "cor": "Preto",
+      "foto": "https://www.sony.com/image/4cb60d16c94f45fe48d15ea6784f7fdd?fmt=pjpeg&wid=1300"
+    },
+    {
+      "id": 25,
+      "nome": "Fone de ouvido Bose QuietComfort 35 II",
+      "descrição": "Fone de ouvido Bluetooth com cancelamento de ruído ativo e microfone embutido.",
+      "marca": "Bose",
+      "preco": 1499.99,
+      "cor": "Prata",
+      "foto": "https://www.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/headphones/quietcomfort-35-ii/products/casestudy/quietcomfort-35-ii-bose-hero.jpg"
+    },
+    {
+      "id": 26,
+      "nome": "Teclado Corsair K95 RGB Platinum",
+      "descrição": "Teclado mecânico com switches Cherry MX, iluminação RGB e teclas adicionais para macros.",
+      "marca": "Corsair",
+      "preco": 1199.00,
+      "cor": "Preto",
+      "foto": "https://www.corsair.com/corsairmedia/sys_master/productcontent/corsair-k95-platinum-rgb-keyboard-01.png"
+    },
+    {
+      "id": 27,
+      "nome": "Mouse Logitech G502 Hero",
+      "descrição": "Mouse para jogos com sensor HERO de 16.000 DPI, 11 botões programáveis e iluminação RGB.",
+      "marca": "Logitech",
+      "preco": 379.99,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/g502/hero/g502-hero-1024.jpg"
+    },
+    {
+      "id": 28,
+      "nome": "Monitor ASUS ROG Swift 27\" 144Hz",
+      "descrição": "Monitor para jogos com tela de 27 polegadas, resolução 2560x1440 e taxa de atualização de 144Hz.",
+      "marca": "ASUS",
+      "preco": 3499.99,
+      "cor": "Preto",
+      "foto": "https://rog.asus.com/media/15862/rog-swift-pg279q_hero_02.jpg"
+    },
+    {
+      "id": 29,
+      "nome": "Headset SteelSeries Arctis 7",
+      "descrição": "Headset sem fio para jogos com som surround 7.1 e microfone retrátil com cancelamento de ruído.",
+      "marca": "SteelSeries",
+      "preco": 1099.99,
+      "cor": "Preto",
+      "foto": "https://steelseries.com/media/ea968f19c98262cc440e4c7642335bce.png"
+    },
+    {
+      "id": 30,
+      "nome": "Controle DualSense PlayStation 5",
+      "descrição": "Controle sem fio para PS5 com feedback háptico, gatilhos adaptáveis e microfone embutido.",
+      "marca": "Sony",
+      "preco": 399.00,
+      "cor": "Branco",
+      "foto": "https://static.playstation.com/playstationcom/ss/migration/mid/2020/11/ps5-dualsense-wireless-controller-hero.jpg"
+    },
+    {
+      "id": 31,
+      "nome": "Fone de ouvido JBL Quantum One",
+      "descrição": "Fone de ouvido para jogos com som espacial 3D, cancelamento de ruído ativo e microfone com redução de ruído.",
+      "marca": "JBL",
+      "preco": 1199.99,
+      "cor": "Preto",
+      "foto": "https://www.jbl.com/on/demandware.static/-/Sites-master-catalog/default/dw0edbc322/images/JBLQuantumOne/jbl-quantum-one-headset.jpg"
+    },
+    {
+      "id": 32,
+      "nome": "Teclado Razer BlackWidow V3",
+      "descrição": "Teclado mecânico com switches Razer Green, iluminação RGB e construção robusta em metal.",
+      "marca": "Razer",
+      "preco": 699.00,
+      "cor": "Preto",
+      "foto": "https://www.razer.com/assests/images/products/21759/razer-blackwidow-v3-gallery.jpg"
+    },
+    {
+      "id": 33,
+      "nome": "Mouse Logitech G Pro X Superlight",
+      "descrição": "Mouse ultraleve com sensor HERO de 25.600 DPI e design ambidestro.",
+      "marca": "Logitech",
+      "preco": 729.00,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/pro-x-superlight/g-pro-x-superlight-black.png"
+    },
+    {
+      "id": 34,
+      "nome": "Monitor Samsung Odyssey G7 32\"",
+      "descrição": "Monitor curvo de 32 polegadas com resolução 2560x1440, taxa de atualização de 240Hz e tempo de resposta de 1ms.",
+      "marca": "Samsung",
+      "preco": 4299.99,
+      "cor": "Preto",
+      "foto": "https://www.samsung.com/us/computing/monitors/gaming/odyssey-32-inch-curved-qhd-gaming-monitor-lc32g75tqsnxza/images/hero.png"
+    },
+    {
+      "id": 35,
+      "nome": "Fone de ouvido HyperX Cloud II",
+      "descrição": "Fone de ouvido com som 7.1 virtual, microfone removível e almofadas de espuma de memória.",
+      "marca": "HyperX",
+      "preco": 749.00,
+      "cor": "Preto",
+      "foto": "https://www.hyperxgaming.com/media/1547/cloud-ii-hero.png"
+    },
+    {
+      "id": 36,
+      "nome": "Teclado Razer Huntsman Mini",
+      "descrição": "Teclado mecânico compacto de 60% com switches ópticos Razer e iluminação RGB.",
+      "marca": "Razer",
+      "preco": 899.00,
+      "cor": "Preto",
+      "foto": "https://www.razer.com/assests/images/products/22702/razer-huntsman-mini-gallery.jpg"
+    },
+    {
+      "id": 37,
+      "nome": "Mouse Logitech G903 Lightspeed",
+      "descrição": "Mouse sem fio com sensor HERO de 16.000 DPI, 11 botões programáveis e RGB.",
+      "marca": "Logitech",
+      "preco": 649.99,
+      "cor": "Preto",
+      "foto": "https://www.logitechg.com/content/dam/logitechg/products/g903-lightspeed/g903-lightspeed-gallery.jpg"
+    }
+  ]

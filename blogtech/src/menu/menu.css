@@ -1,0 +1,67 @@
+*{
+    margin: 0,
+}
+
+ul{
+    list-style: none;
+    font-family: "Chakra Petch", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    /*color: rgba(39, 80, 245, 0.8);*/
+    color: #FFFFFF;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    align-items: center;
+    /*background-color: rgba(241, 242, 247, 0.8);*/
+    background-color: #A254F7;
+    border-radius: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-items: center;
+    padding: 0;
+    width: 100vw;
+}
+
+.submenu-list{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    background-color: #A254F7;
+    width: 20vw;
+    border-radius: 20px;
+}
+
+.submenu-list :hover {
+    text-decoration: underline;
+}
+
+input{
+    background-image: url('http://localhost:3000/img/search.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Posiciona a imagem à esquerda, centralizada verticalmente */
+    padding-left: 30px; /* Adiciona espaço à esquerda para a imagem não sobrepor o texto */
+    height: 40px;
+    width: 250px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus{
+   outline: 1px solid #ccc;
+}
