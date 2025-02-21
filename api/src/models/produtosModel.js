@@ -1,5 +1,5 @@
 import {db} from "../config/dbconfig.js";
-import {collection, getDoc, getDocs, doc, addDoc} from 'firebase/firestore';
+import {collection, getDoc, getDocs, doc, addDoc, updateDoc} from 'firebase/firestore';
 
 export async function getTodosProdutos() {
     try{
@@ -46,9 +46,41 @@ export async function insertProduto(dadosProduto) {
             marca: dadosProduto.marca,
             modelo: dadosProduto.modelo,
             preco: dadosProduto.preco
+            // imagens: {
+            //     imagem1: dadosProduto.imagem1,
+            //     imagem2: dadosProduto.imagem2,
+            //     imagem3: dadosProduto.imagem3
+            // }
         });
+        return produtoInsert.id;
     } catch (error) {
         console.log("Erro ao cadastrar produto: ", error);
         return error;
+    }
+}
+
+export async function updateProduto(dadosProduto, idProduto) {
+    try {
+        const produtoUpdateDoc = await doc(db, "produtos", idProduto);
+        if(idProduto != null && idProduto != ''){
+            await updateDoc(produtoUpdateDoc, {
+                nome: dadosProduto.nome,
+                descricao: dadosProduto.descricao,
+                observacao: dadosProduto.observacao,
+                marca: dadosProduto.marca,
+                modelo: dadosProduto.modelo,
+                preco: dadosProduto.preco
+                // imagens: {
+                //     imagem1: dadosProduto.imagem1,
+                //     imagem2: dadosProduto.imagem2,
+                //     imagem3: dadosProduto.imagem3
+                // }
+            });
+            return {id:produtoUpdateDoc.id};
+        }else{
+            throw new Error("ID INVÁLIDO");
+        }
+    } catch (error) {
+        return {"ERRO AO ATUALIZAR O PRODUTO":error};
     }
 }

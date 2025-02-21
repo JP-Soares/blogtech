@@ -1,10 +1,11 @@
 import express from 'express';
-import { listarTodosProdutos, listarUmProduto } from '../controllers/produtosController.js';
+import { listarTodosProdutos, listarUmProduto, inserirUmProduto } from '../controllers/produtosController.js';
 
 const produtosRoutes = (app) => {
     app.use(express.json());
     app.get("/produtos", listarTodosProdutos);
-    app.get("/produtos/:id", listarUmProduto);
+    app.get("/produtos/:id",listarUmProduto);
+    app.post("/produtos",inserirUmProduto);
 };
 
 export default produtosRoutes;
