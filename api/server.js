@@ -5,6 +5,6 @@ const app = express();
 
 produtosRoutes(app);
 
-app.listen(3000, '192.168.0.166', () =>{
-    console.log("Servidor 3000");
+app.listen(8080, '192.168.0.166', () =>{
+    console.log("Servidor 8080");
 });

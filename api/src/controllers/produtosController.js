@@ -47,6 +47,6 @@ export async function atualizarUmProduto(req, res){
             res.status(400).json({"ERRO":"PRODUTO NÃO ENCONTRADO!"});
         }
     } catch (error) {
-        
+        return res.status(500).json({"erro":"Falha na requisição!", error})
     }
 }
